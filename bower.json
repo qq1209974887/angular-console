@@ -1,5 +1,6 @@
 {
   "name": "angular-console",
+  "version": "0.0.1",
   "description": "console's service is based on angular's frame",
   "main": "./gulpfile.js",
   "authors": [
@@ -13,7 +14,6 @@
     "release"
   ],
   "homepage": "",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,7 +22,8 @@
     "tests"
   ],
   "devDependencies": {
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "angular-rem": "^0.0.2"
   },
   "dependencies": {
     "angular": "^1.6.4"
