@@ -1,0 +1,34 @@
+{
+  "name": "angular-console",
+  "version": "0.0.1",
+  "description": "console's directive is based on angular's frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp",
+    "release": "gulp release"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "debug",
+    "release"
+  ],
+  "author": "王长城",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2"
+  },
+  "path": {
+    "dist": "dist",
+    "src": "src"
+  }
+}
